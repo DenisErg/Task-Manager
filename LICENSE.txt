@@ -1,0 +1,6 @@
+Copyright © 2025 Denis Ergenekon
+
+All rights reserved.
+
+This project is intended solely for personal demonstration purposes. 
+No part of this code may be copied, distributed, or used in any derivative work without explicit written permission.

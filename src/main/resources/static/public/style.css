@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body {
+	background: #c9c5af;
+}
+
+#add-task-form {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background: #c9c5af;
+	min-width: 50%;
+	padding: 5%;
+	background: #212529;
+	color: white
+}
+
+#login-form-button {
+	background: #7e5c54;
+	border: #7e5c54;
+}
+
+#to-do-list {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#login-relink {
+	padding-left: 3%;
+}
+
+#hyperlink {
+	color: white;
+	text-decoration: none;
+}
+
+#hyperlink:hover {
+	color: red;
+	text-decoration: none;
+}
+
+#logout-button{
+	text-align:end;
+}
+
+.task-list-buttons {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.task-list-buttons-form {
+	display: inline-block;
+}
+
+.icons {
+	filter: invert(1);
+}
+
+.is-finished-tick {
+	width: 25%;
+}
+
+.is-finished-cross {
+	width: 20%;
+}
+
+td, th {
+	width: 1px;
+	text-align: center;
+}
+
+th {
+	border-bottom: 1px solid white;
+	width: 1px;
+}
+
+#centered-form {
+	color: white;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background: #212529;
+	padding: 5%;
+	width:40%;
+}
+
+#login-form-button:hover {
+	background: #58403a;
+	border: #58403a;
+}
